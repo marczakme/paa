@@ -1,0 +1,26 @@
+# Secrets - NIGDY nie commituj!
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Output files
+*.csv
+*.json
+!requirements.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Streamlit
+.streamlit/cache/
